@@ -1,4 +1,4 @@
-* hifiasm assembly by INRAE
+* hifiasm assembly provided by INRAE, France's National Research Institute for Agriculture, Food and Environment
 * Synteny and telomere checks by Cecilia Deng@PFR
 * Reference guided scaffolding by Cecilia Deng@PFR
 * TE detection and softmasking by Ting-Hsuan Chen@PFR
