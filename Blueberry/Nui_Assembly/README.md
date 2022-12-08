@@ -1,7 +1,7 @@
 # Nui_ONT_Assembly
  
-Experiment Requestor: CAGRF21436
-AGRF experiment number: 10719
+Experiment Requestor: 10719
+AGRF experiment number: CAGRF21436
 PI: David
 Scientist:  Susan, Toshi and Sara
 Lab scientist: Elena Hilario
