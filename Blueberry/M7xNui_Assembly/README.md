@@ -1,34 +1,35 @@
 # M7xNui_Assembly WORK IN PROGRESS
  
-Experiment Requestor: 10871 and 10969
-ANU number Quote Number: Q-20210728
-Neogen Quote Number for PacBio: 00001079
-PI: David
-Scientist:  Sara, Toshi
-Lab scientist: Elena Hilario, Iggy
-Bioinformaticians:   Chen, Iggy
-Species: Vaccinium corymbosum (progeny of Nui and Hortblue Petite (M7))
-Ploidy: tetraploid 
-Tissue:  Leaves from baby plant.
-Varietal: Progeny of M7(Father) and Nui(Mother). V06.A002-186 ME44-049
-Sample type: nuclear genomic DNA  >50 kbp
-Sample Name in Lab: ONT_gDNA43_346_EH
-Platform: Oxford Nanopore PromethION FLOPRO111 R10 flowcell.
-Library: (Q20+) Library Prep SQK-Q20EA
-Date downloaded: 2022-02-17
+- Experiment Requestor: 10871 and 10969
+- ANU number Quote Number: Q-20210728
+- Neogen Quote Number for PacBio: 00001079
+- PI: David
+- Scientist:  Sara, Toshi
+- Lab scientist: Elena Hilario, Iggy
+- Bioinformaticians:   Chen, Iggy
+- Species: Vaccinium corymbosum (progeny of Nui and Hortblue Petite (M7))
+- Ploidy: tetraploid 
+- Tissue:  Leaves from baby plant.
+- Varietal: Progeny of M7(Father) and Nui(Mother). V06.A002-186 ME44-049
+- Sample type: nuclear genomic DNA  >50 kbp
+- Sample Name in Lab: ONT_gDNA43_346_EH
+- Platform: Oxford Nanopore PromethION FLOPRO111 R10 flowcell.
+- Library: (Q20+) Library Prep SQK-Q20EA
+- Date downloaded: 2022-02-17
  
 ## Background
 Genomics Aotearoa project for assembling tetraploid genomes. This work is mainly being done to identify the Anthocyanin QTL in LG2 for the Growing Future Traits for Life Indoors project. V1.0 of the genome was done using ONT Q20 data. V2.0 will be done using a triobinning approach by combining illumina data of the parents with PacBio HiFi data of the progeny. The goal is to have a fully phased tetraploid genome.
 
 ## Data sources
 
-- ONT PromethION M7xNui here:
-    - /input/genomic/plant/Vaccinium/corymbosum/20220208_M7xNui
+- ONT PromethION M7xNui here: `/input/genomic/plant/Vaccinium/corymbosum/20220208_M7xNui`
 
 
-## Method
+## Methods
 
-- https://github.com/GenomicsAotearoa/High-quality-genomes/tree/main/Blueberry/M7xNui_Assembly
+### Code
+- [Genomics Aotearoa High Quality Genomes GitHub](https://github.com/GenomicsAotearoa/High-quality-genomes/tree/main/Blueberry/M7xNui_Assembly)
+
 
 ### V1.0
 - base-calling for ONT samples using Guppy v6.
@@ -37,7 +38,7 @@ Genomics Aotearoa project for assembling tetraploid genomes. This work is mainly
 
 
 ## Results
- - See contiguity and completeness stats of assembly methods here: /workspace/hraijc/Blueberry/BB_M7xNui_Assembly/99_Outputs/Assembly_Stats_M7xNui.xlsx 
+ - See contiguity and completeness stats of assembly methods here: `/workspace/hraijc/Blueberry/BB_M7xNui_Assembly/99_Outputs/Assembly_Stats_M7xNui.xlsx `
  - Several Flye assemblies were done using different filters for input data. Best results were obtained by filtering ONT reads with quality scores <10 and read lengths >2kb. 
 
 

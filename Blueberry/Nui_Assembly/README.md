@@ -1,41 +1,38 @@
 # Nui_ONT_Assembly
  
-Experiment Requestor: 10719
-AGRF experiment number: CAGRF21436
-PI: David
-Scientist:  Susan, Toshi and Sara
-Lab scientist: Elena Hilario
-Bioinformatician:   Susan, Chen, Cecilia, Iggy
-Species: Vaccinium corymbosum (parent of mapping popn)
-Ploidy: tetraploid 
-Tissue:  fully developed leaves
-Varietal: Nui
-Sample type: nuclear genomic DNA  >50 kbp
-Data type: long read DNA
-Library:   most likely SQK-LSK109 but it would be good to confirm with AGRF
-Platform: Oxford Nanopore PromethION  and also keep track of the flow cell version, although not sure it comes with the metadata of the results
-Date downloaded: 08-04-2020
+- Experiment Requestor: 10719
+- AGRF experiment number: CAGRF21436
+- PI: David
+- Scientist:  Susan, Toshi and Sara
+- Lab scientist: Elena Hilario
+- Bioinformaticians:   Susan, Chen, Cecilia, Iggy
+- Species: Vaccinium corymbosum (parent of mapping popn)
+- Ploidy: tetraploid 
+- Tissue:  fully developed leaves
+- Varietal: Nui
+- Sample type: nuclear genomic DNA  >50 kbp
+- Data type: long read DNA
+- Library:   most likely SQK-LSK109 but it would be good to confirm with AGRF
+- Platform: Oxford Nanopore PromethION  and also keep track of the flow cell version, although not sure it comes with the metadata of the results
+- Date downloaded: 08-04-2020
  
 ## Background
-Genomics Aotearoa project for assembling tetraploid genomes. This ONT data complements the capture-seq, 10X Chromium data, plus some RNAseq done in Filling the Void project. We have collaborations with USDA VacCAP project. The specimen is also parent of the mapping population used in Filling the Void and Growing Future Traits for Life Indoor.
+Genomics Aotearoa project for assembling tetraploid genomes. This ONT data complements the capture-seq, 10X Chromium data, plus some RNAseq done in Filling the Void project. We have collaborations with USDA VacCAP project. The specimen is also parent of the mapping population used in Filling the Void and Growing Future Traits for Life Indoors.
 
 ## Data sources
 
-- HiC Data for Nui is here:
-    - /input/genomic/plant/Vaccinium/corymbosum/AGRF_CAGRF21434_HJWHFDRXX
+- HiC Data for Nui is here: `/input/genomic/plant/Vaccinium/corymbosum/AGRF_CAGRF21434_HJWHFDRXX`
 
-- 10X data for Nui and M7 here:
-    - /input/genomic/plant/Vaccinium/corymbosum/AGRF_CAGRF18813_H7JY3DRXX
+- 10X data for Nui and M7 here: `/input/genomic/plant/Vaccinium/corymbosum/AGRF_CAGRF18813_H7JY3DRXX`
 
-- ONT PromethION Nui (BB2020 and BB2020-2 are the same sample) here:
-    - /input/genomic/plant/Vaccinium/corymbosum/Blueberry_PromethION_Apr2020
+- ONT PromethION Nui (BB2020 and BB2020-2 are the same sample) here: `/input/genomic/plant/Vaccinium/corymbosum/Blueberry_PromethION_Apr2020`
 
-- ONT MinION Nui (BB2020) here:
-    - /input/genomic/plant/Vaccinium/corymbosum/CAGRF21436/20200224_MinION/AGRF_CAGRFF21436_FAL87845_BB2020/
+- ONT MinION Nui (BB2020) here: `/input/genomic/plant/Vaccinium/corymbosum/CAGRF21436/20200224_MinION/AGRF_CAGRFF21436_FAL87845_BB2020/`
 
-## Method
+## Methods
 
-- https://github.com/GenomicsAotearoa/High-quality-genomes/tree/main/Blueberry/Nui_Assembly/
+### Code
+- [Genomics Aotearoa High Quality Genomes GitHub](https://github.com/GenomicsAotearoa/High-quality-genomes/tree/main/Blueberry/Nui_Assembly)
 
 ### V1.0
 - base-calling for ONT samples using Guppy v5.
