@@ -8,20 +8,18 @@ Affiliation: Manaaki Whenua - Landcare Research
 Location: Tāmaki Makaurau
 
 Genomics Aotearoa research project(s):
-
-    Reference genome assemblies for:
+1) Reference genome assemblies for:
+- Kakī | Black stilt, *Himantopus novaezelandiae*
+- Kuaka Whenua Hou | Whenua Hou diving petrel, *Pelecanoides whenuahoensis*
+- Huhu beetle, *Prionoplus reticularis*
+- Little Barrier giant wētā, *Deinacrida heteracantha*
+- Rātā moehau | Bartlett's rātā, *Meterosideros bartletti*
+- Hochstetter's frog, *Leiopelma hochstetteri*
     
-    - Kakī | Black stilt, *Himantopus novaezelandiae*
-    - Kuaka Whenua Hou | Whenua Hou diving petrel, *Pelecanoides whenuahoensis*
-    - Huhu beetle, *Prionoplus reticularis*
-    - Little Barrier giant wētā, *Deinacrida heteracantha*
-    - Rātā moehau | Bartlett's rātā, *Meterosideros bartletti*
-    - Hochstetter's frog, *Leiopelma hochstetteri*
+2) Population genomics:
     
-    Population genomics:
-    
-    - Mahoenui giant wētā, *Deinacrida mahoenui*
-    - Kuaka Whenua Hou
+- Mahoenui giant wētā, *Deinacrida mahoenui*
+- Kuaka Whenua Hou
     
 Start date: 2020-11-01
 
