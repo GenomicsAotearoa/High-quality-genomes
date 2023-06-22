@@ -28,7 +28,7 @@ Find me at: forsdickn@landcareresearch.co.nz, https://github.com/natforsdick, Tw
 Talk to me about: Birds! As Vice-President of [Birds NZ](www.birdsnz.org.nz), you will often find me bird-watching in my free time. 
 
 ## Annabel Whibley
-<img src="./images/AnnabelWhibley.jpeg" alt="Profile photo of Annabel Whibley" width="300">
+<img src="./images/AnnabelWhibley.jpg" alt="Profile photo of Annabel Whibley" width="300">
 Affiliation: Bioinformatician at Bragato Research Institute and honorary academic at the University of Auckland 
 
 Location: Tāmaki Makaurau
