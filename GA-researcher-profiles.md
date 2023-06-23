@@ -44,3 +44,15 @@ Other NZ genomics research projects:
 Find me at: annabel.whibley@bri.co.nz or annabel.whibley@auckland.ac.nz , https://github.com/annabel-NZ Twitter:@alt_allele
 
 Talk to me about: Genome assemblies, non-model organisms, transposons, wet-lab approaches, experimental design and anything ONT.
+
+## Ignacio Carvajal
+<img src="./images/IgnacioCarvajal.jpg" alt="Iggy was here" width="300">
+Affiliation: Plant & Food Research 
+
+Location: Tāmaki Makaurau
+
+Genomics Aotearoa research project(s): *Vaccinium spp.*, *Centrostephanus rodgersii*, *Leioproctus imitatus* and *Ecklonia radiata*
+
+Find me at: ignacio.carvajal@plantandfood.co.nz or  [Github](https://github.com/ignacio3437)
+
+Talk to me about: Hi-C, wet-lab hacks, genome assembly, phylogenetics, taxonomy and population genetics. 
