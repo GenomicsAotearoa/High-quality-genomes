@@ -47,7 +47,7 @@ Talk to me about: Genome assemblies, non-model organisms, transposons, wet-lab a
 
 ## Ignacio Carvajal
 <img src="./images/IgnacioCarvajal.jpg" alt="Iggy was here" width="300">
-Affiliation: Plant and Food Reasearch 
+Affiliation: Plant & Food Research 
 
 Location: Tāmaki Makaurau
 
@@ -55,4 +55,4 @@ Genomics Aotearoa research project(s): *Vaccinium spp.*, *Centrostephanus rodger
 
 Find me at: ignacio.carvajal@plantandfood.co.nz or  [Github](https://github.com/ignacio3437)
 
-Talk to me about: HiC, wet-lab hacks, genome assembly, phylogenetics, taxonomy and population genetics. 
+Talk to me about: Hi-C, wet-lab hacks, genome assembly, phylogenetics, taxonomy and population genetics. 
