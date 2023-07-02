@@ -56,15 +56,3 @@ Genomics Aotearoa research project(s): *Vaccinium spp.*, *Centrostephanus rodger
 Find me at: ignacio.carvajal@plantandfood.co.nz or  [Github](https://github.com/ignacio3437)
 
 Talk to me about: Hi-C, wet-lab hacks, genome assembly, phylogenetics, taxonomy and population genetics. 
-
-## Katarina Stuart
-<img src="./images/KatarinaStuart.jpg" alt="Kat is sometimes here" width="300">
-Affiliation: University of Auckland, and visiting fellow at the University of New South Wales
-
-Location: Auckland
-
-Genomics Aotearoa research project(s): Hihi whole genome resequencing & myna genomics (non GA project)
-
-Find me at: katarina.stuart@auckland.ac.nz | katarina.stuart@unsw.edu.au | https://katarinastuart.github.io/ | @Katarina_Stuart
-
-Talk to me about: population & evolutionary genomics, board games, lizards
