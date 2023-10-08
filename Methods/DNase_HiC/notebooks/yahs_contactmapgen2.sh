@@ -38,7 +38,7 @@ samtools="samtools"
 
 
 #### this is to generate input file for juicer_tools - non-assembly mode or for PretextMap
-samtools faidx ${contigs}
+#samtools faidx ${contigs}
 ## here we use 8 CPUs and 24Gb memory for sorting - adjust it according to your device
 (/workspace/hraijc/git_clones/yahs/juicer pre ${out}.bin ${out}_scaffolds_final.agp ${contigs}.fai 2>${out}_tmp_juicer_pre.log | LC_ALL=C sort -k2,2d -k6,6d -T ${outdir} --parallel=8 -S24G | awk 'NF' > ${out}_alignments_sorted.txt.part) && (mv ${out}_alignments_sorted.txt.part ${out}_alignments_sorted.txt)
 ## prepare chromosome size file from samtools index file
