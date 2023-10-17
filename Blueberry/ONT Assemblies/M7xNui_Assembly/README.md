@@ -1,4 +1,4 @@
-# M7xNui_Assembly WORK IN PROGRESS
+# M7xNui_Assembly ONT assembly put on hold. 
  
 - Experiment Requestor: 10871 and 10969
 - ANU number Quote Number: Q-20210728
