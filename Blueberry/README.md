@@ -9,3 +9,5 @@
 + Triobinned M7xNui Hifi reads assembled with HiFiasm into 4 haplotypes. 
 
 ### See READMEs in folders for more info. 
+
+## Please use HiFi assemblies for future work. ONT assemblies are archived.
