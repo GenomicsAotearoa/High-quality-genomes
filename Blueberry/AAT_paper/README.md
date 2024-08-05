@@ -6,7 +6,9 @@ The major candidate gene controlling anthocyanin acylation in blueberry skin was
 
 ## Methods
 - Data QC and trio-binning
-- Genome assembly?
+- Genome assembly
+  - GenomAsm4pg: https://forgemia.inra.fr/asm4pg/GenomAsm4pg
+  - hifiasm & Purge_Dups
 - Assembly Contamination checks
 
 ## Authors
