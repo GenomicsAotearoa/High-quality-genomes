@@ -2,14 +2,17 @@
 
 The major candidate gene controlling anthocyanin acylation in blueberry skin was functionally validated, and the relative causative variant identified, providing invaluable information for developing cultivars with enhanced fruit quality. 
 
-### Data Availability
+### Code Availability
 
 ## Methods
 - Data QC and trio-binning
-- Genome assembly
+- Genome assembly and contig anchoring
   - GenomAsm4pg: https://forgemia.inra.fr/asm4pg/GenomAsm4pg
   - hifiasm & Purge_Dups
+  - assembly qc report
+  - contig anchoring using synteny and linkage map
 - Assembly Contamination checks
+- Plots: kmer spectrum (spp Fig1), phased parental markers on progeny contigs (Fig1) and AAT genes (Fig2)
 
 ## Authors
 
