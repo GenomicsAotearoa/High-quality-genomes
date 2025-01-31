@@ -1,6 +1,7 @@
 # High-quality-genomes
 - This repository aims to hosting workflows/codes that have been developed for GA high-quality-genome projects. Naming folder with species common name is recommended. 
 - Here are some pointers to workflows/codes in other folders:
+  - [Hihi, SVs](https://github.com/katarinastuart/Nc3_HihiSV)
   - [Huhu, ONT genome assembly](https://github.com/natforsdick/ONT-huhu)
   - [Kākāpō](https://github.com/GenomicsAotearoa/Kakapo)
   - [Kākāpō, linear SVs](https://github.com/janawold1/2023_MER_Special_Issue)
