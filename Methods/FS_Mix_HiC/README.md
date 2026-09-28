@@ -6,8 +6,8 @@
 ## Objective:
 - The NEBNext Ultra II FS DNA Module converts intact DNA into fragmented, end-repaired DNA having 5´ phosphorylated, 3´ dA-tailed ends. [NEB Website](https://www.neb.com/en-nz/products/e7810-nebnext-ultra-ii-fs-dna-module)
 - We would like to use this enzyme for creating Hi-C libraries that are comparable to DNase digested libraries (Omni-C). [DNAse Hi-C lib prep protocol](https://www.protocols.io/view/enzymatic-fragmentation-of-plant-chromatin-for-hi-j8nlk4pnxg5r/v1)
-- The FS_Mix digestion is much easier to control compared to DNase as it is an endpoint reaction, no titration or time calibration of enzymes necessary. It also does the end repair and dA tailing all in one step, saving time and cleanup steps. 
-- This experiment was designed to ensure that FS-Mix Hi-C libraries were comparable to DNase Hi-C libraries. Specifically we will check if there is any site specificity to the FS_Mix cutting and if the normal Hi-C QC metrics are comparable. 
+- The FS_Mix digestion is much easier to control compared to DNase as it is an endpoint reaction, no titration or time calibration of enzymes necessary. Additionally, it does the end repair and dA tailing all in one step, saving time and cleanup steps. 
+- This experiment was designed to ensure that FS-Mix Hi-C libraries were comparable to DNase Hi-C libraries. Specifically we will check if there is any bias in the FS_Mix cutting by checking for uniformity in the FS_Mix hi-c data. We will also check the normal Hi-C QC metrics. 
 
 ### Experimental setup:
 One *Actinidia chinensis* plant was used as a control and 4 libraries were created from this material after isolating nuclei:
@@ -16,7 +16,10 @@ One *Actinidia chinensis* plant was used as a control and 4 libraries were creat
 3) FS_Mix digested Hi-C Library. Digestion time = 2 Hour
 4) FS_Mix digested Hi-C Library. Digestion time = 3 Hour
 
-DNase Library was sequenced on a Novaseq lane in 2024 and the FS_Mix libraries were sequenced on an MGI G99 20M flowcell. The DNAse library was subsampled down to 7M read pairs to match the read depth of the FS_mix libraries. 
+DNase Library was sequenced on a Novaseq lane in 2024 and the FS_Mix libraries were sequenced on an MGI G99 20M flowcell. The DNAse library was subsampled down to 7M read pairs to match the read depth of the FS_mix libraries. A yeast Hi-C library is added to some of the outputs to compare these libraries to one digested with restriction enzyme like in the yeast dataset. 
+
+
+### Wet-Lab
 
 [For Fragment analyzer traces and lab notes see here](Methods/FS_Mix_HiC/FS_mix_digest_tests.pdf) 
 
@@ -38,7 +41,7 @@ DNase Library was sequenced on a Novaseq lane in 2024 and the FS_Mix libraries w
 - [See Multiqc output](Methods/FS_Mix_HiC/Results/MultiQC_Report.pdf)
 - [See deeptools coverage plot](Methods/FS_Mix_HiC/Results/fingerprint_comparison.plotFingerprint.pdf)
 
-| Sample   | % of RP > 10KB apart | Informative  Reads / contig / 1M Reads | % Informative | % Non Informative | % Duplicate | % Mapq=0 | % Unmapped |
+| Sample   | % of RP > 10KB apart | Informative  Reads / 1M Reads | % Informative | % Non-Informative | % Duplicate | % Mapq=0 | % Unmapped |
 |----------|----------------------|----------------------------------------|---------------|-------------------|-------------|----------|------------|
 | Yeast Restriction Enzyme Library for comparison | 4                    | 2500                                   | 12.4          | 24.4              | 0.15        | 15       | 4.8        |
 | FS   1H  | 6.4                  | 4309                                   | 22            | 18.8              | 7.46        | 5.4      | 0.9        |
@@ -46,4 +49,4 @@ DNase Library was sequenced on a Novaseq lane in 2024 and the FS_Mix libraries w
 | FS   3H  | 13.4                 | 7661                                   | 37.4          | 14.3              | 2.18        | 6.23     | 0.53       |
 | DNAse    | 16.81                | 8267                                   | 40.54         | 16.09             | 1.03        | 7.98     | 0.56       |
 
-- FS_mix digested Hi-C libraries are comparable to DNase digested Hi-C libraries in coverage eveness and hicqc metrics when digested for 3 hours. 
+- The FS_mix 3H sample is comparable to DNase digested Hi-C libraries in eveness of coverage and hi-c QC metrics and a significant improvement compared to libraries created using a restriction enzyme digest. 
