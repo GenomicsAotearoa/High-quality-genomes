@@ -1,0 +1,5 @@
+10.1093/bioinformatics/btw354                      # MultiQC
+10.1093/bioinformatics/btx699                      # mosdepth
+10.5281/zenodo.1490830                             # pairtools
+10.1101/2023.02.13.528389                          # pairtools
+
