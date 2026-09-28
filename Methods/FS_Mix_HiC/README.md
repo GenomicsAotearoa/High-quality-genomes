@@ -4,8 +4,8 @@
 - Support + Bioinformatics: Ignacio Carvajal
 
 ## Objective:
-- The NEBNext Ultra II FS DNA Module converts intact DNA into fragmented, end-repaired DNA having 5´ phosphorylated, 3´ dA-tailed ends. (NEB Website)[https://www.neb.com/en-nz/products/e7810-nebnext-ultra-ii-fs-dna-module]
-- We would like to use this enzyme for creating Hi-C libraries that are comparable to DNase digested libraries (Omni-C). (DNAse Hi-C lib prep protocol)[https://www.protocols.io/view/enzymatic-fragmentation-of-plant-chromatin-for-hi-j8nlk4pnxg5r/v1]
+- The NEBNext Ultra II FS DNA Module converts intact DNA into fragmented, end-repaired DNA having 5´ phosphorylated, 3´ dA-tailed ends. [NEB Website](https://www.neb.com/en-nz/products/e7810-nebnext-ultra-ii-fs-dna-module)
+- We would like to use this enzyme for creating Hi-C libraries that are comparable to DNase digested libraries (Omni-C). [DNAse Hi-C lib prep protocol](https://www.protocols.io/view/enzymatic-fragmentation-of-plant-chromatin-for-hi-j8nlk4pnxg5r/v1)
 - The FS_Mix digestion is much easier to control compared to DNase as it is an endpoint reaction, no titration or time calibration of enzymes necessary. It also does the end repair and dA tailing all in one step, saving time and cleanup steps. 
 - This experiment was designed to ensure that FS-Mix Hi-C libraries were comparable to DNase Hi-C libraries. Specifically we will check if there is any site specificity to the FS_Mix cutting and if the normal Hi-C QC metrics are comparable. 
 
@@ -35,12 +35,12 @@ DNase Library was sequenced on a Novaseq lane in 2024 and the FS_Mix libraries w
 
 
 ## Results
-[See Multiqc output](Methods/FS_Mix_HiC/Results/multiqc/multiqc_report.html)
-[See deeptools coverage plot](Methods/FS_Mix_HiC/Results/deeptools/plotfingerprint/fingerprint_comparison.plotFingerprint.pdf)
+- [See Multiqc output](Methods/FS_Mix_HiC/Results/MultiQC_Report.pdf)
+- [See deeptools coverage plot](Methods/FS_Mix_HiC/Results/fingerprint_comparison.plotFingerprint.pdf)
 
 | Sample   | % of RP > 10KB apart | Informative  Reads / contig / 1M Reads | % Informative | % Non Informative | % Duplicate | % Mapq=0 | % Unmapped |
 |----------|----------------------|----------------------------------------|---------------|-------------------|-------------|----------|------------|
-| Yeast RE | 4                    | 2500                                   | 12.4          | 24.4              | 0.15        | 15       | 4.8        |
+| Yeast Restriction Enzyme Library for comparison | 4                    | 2500                                   | 12.4          | 24.4              | 0.15        | 15       | 4.8        |
 | FS   1H  | 6.4                  | 4309                                   | 22            | 18.8              | 7.46        | 5.4      | 0.9        |
 | FS 2H    | 9.1                  | 5769                                   | 28.5          | 16.83             | 5.52        | 5.69     | 0.58       |
 | FS   3H  | 13.4                 | 7661                                   | 37.4          | 14.3              | 2.18        | 6.23     | 0.53       |
